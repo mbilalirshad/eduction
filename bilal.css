@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+    cursor: pointer;
+    top: 0;
+}
+.nav-list{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.nav-list li{
+    list-style: none;
+    color: white;
+
+}
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+    padding: 26px 24px;
+
+}
+#search{
+    font-size: 13px;
+    border: 2 px solid white;
+    border-radius: 20px;
+}
+
+
+
+.rightnav{
+    width: 50%;
+    text-align: right;
+}
+.logo img{
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 50px;
+
+}
+.background{
+    background: rgba(0, 0, 0, 0.7)url(dubai2.jfif);
+    background-size: cover;
+     background-blend-mode:darken ;
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 50%;
+    height: 80%;
+    
+    margin: auto;
+}
+.firsthalf{
+    color: white;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.secondhalf{
+    width: 30%;
+   
+    
+
+
+}
+.secondhalf img{
+    width: 70%;
+    border: 2px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+
+}
+.firstsection{
+    height: 100vh;
+}
