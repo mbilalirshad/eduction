@@ -87,5 +87,37 @@
 
 }
 .firstsection{
-    height: 100vh;
+    height: 67vh;
+}
+.big-text{
+    font-size: 1.5rem;
+}
+.btn{
+    background:none ;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 5px 8px;
+    cursor: pointer;
+}
+.secright{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.paras{
+    padding: 0px 65px;
+}
+.secleft{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 80%;
+    margin: auto;
+    flex-direction: row-reverse;
 }
