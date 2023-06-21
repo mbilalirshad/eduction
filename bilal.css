@@ -28,6 +28,7 @@
     text-decoration: none;
     color: white;
     padding: 26px 24px;
+    font-size: 20px;
 
 }
 #search{
@@ -60,6 +61,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 50%;
     height: 80%;
+    flex-wrap: ;
     
     margin: auto;
 }
@@ -111,13 +113,72 @@
 }
 .paras{
     padding: 0px 65px;
+    margin-bottom: 23px;
 }
 .secleft{
-    height: 500px;
+    height: 300px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     max-width: 80%;
     margin: auto;
     flex-direction: row-reverse;
+    padding: 34px 0px;
 }
+ .contact{
+    height: 45vh;
+    background-color: #e6e8e7;
+ }
+  .contacts{
+   text-align: center;
+  }
+ .form{
+   margin: auto;
+   max-width: 344px;
+ }
+ .form input{
+    font-size: 19px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    width: 100%;
+    margin: 30px 0px;
+ }
+ .text-center{
+    text-align: center;
+    background-color: black;
+    color: white;
+ }
+ .btn1{
+      
+    font-size: 20px;
+    margin-right: 277px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    padding: 2px;
+}
+
+@media only screen and (max-width: 1140px){
+
+.nav-list{
+    flex-direction: column;
+}
+
+.navbar{
+    flex-direction: column;
+}
+.rightnav{
+    text-align: center;
+}
+#search{
+    width: 100%;
+}
+
+
+
+
+
+}
+    
+
+      
+      
