@@ -144,6 +144,8 @@ body {
 }
 .income {
   margin-top: 20px;
+
+  border-radius: 10px;
 }
 .pray {
   max-width: 769px;
@@ -158,9 +160,22 @@ body {
   color: white;
   font-size: 1.5rem;
   padding: 21px 359px 12px 39px;
+  display: flex;
 }
 .mission2 {
   color: white;
   font-size: 14px;
   padding: 0px 314px 12px 39px;
+}
+.mains {
+  display: flex;
+  flex-direction: column;
+}
+.pray-pic img {
+  padding-left: 345px;
+  width: 182px;
+  height: 182px;
+  margin-top: 1696px;
+  margin-left: 699px;
+  border-radius: 10px;
 }
